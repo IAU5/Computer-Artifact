@@ -5,6 +5,15 @@ It pretty simple to run the files yourself , but beware that it might take some 
 The computer artifacts are based on the CNN-RNN and DeepLabV3 models which are used in the paper " Automatic Detection of Congestive Heart Failure Based on a Hybrid Deep Learning Algorithm in the Internet of Medical Things " and " High-Throughput Precision Phenotyping of Left Ventricular Hypertrophy
 With Cardiovascular Deep Learning " respectively. These Models were used and modified a bit so that it works with the PneumoniaMNIST and BreastMNIST dataset. DeepLabv3 was adapted for classification tasks, using segmentation features to improve performance. CNN-RNN hybrid model was used in both datasets, despite their lack of temporal data.
 
+It also contains the main four papers for my comprehensive paper.
+1) Automatic Detection of Congestive Heart Failure Based on a Hybrid Deep Learning Algorithm in the Internet of Medical Things
+2) Review of ECG Heartbeat Arrhythmia Classification Using Time-Series Augmented Signals and Deep Learning Approach
+3) High-Throughput Precision Phenotyping of Left Ventricular Hypertrophy With Cardiovascular Deep Learning
+4) Video-based AI for beat-to-beat assessment of cardiac function
+
+And also my main Comprehensive Synthesis Paper
+1) Advancements in AI for Cardiovascular Diagnostics: A Synthesis of Deep Learning Models
+
 # Medical Image Classification with CNN-RNN and DeepLabv3 Models
 
 This repository contains code for training and evaluating two deep learning models—**CNN-RNN Hybrid** and **Modified DeepLabv3**—on medical imaging datasets. The models are tested on two datasets, **PneumoniaMNIST** and **BreastMNIST**, to classify medical images and demonstrate model performance.
