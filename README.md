@@ -50,22 +50,7 @@ This model utilizes a ResNet-based encoder without ASPP (Atrous Spatial Pyramid 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/medical-image-classification.git
-   cd medical-image-classification
-## Usage
-Training and Evaluation
-To train and evaluate the models on the PneumoniaMNIST and BreastMNIST datasets, use the provided Python scripts or notebooks.
-
-1. Run the CNN-RNN model on both datasets:
-   ```
-   python cnn_rnn_train.py --dataset pneumonia
-   python cnn_rnn_train.py --dataset breast
-   ```
-2. Run the Modified DeepLabv3 model on both datasets:
-   ```
-   python deeplabv3_train.py --dataset pneumonia
-   python deeplabv3_train.py --dataset breast
-   ```
-These commands will load the dataset, train the model, and evaluate its performance metrics (accuracy, F1-score, etc.).
+   cd medical-image-classification  
 
 ## Results
 Model performance on each dataset is evaluated using metrics such as accuracy, F1-score, recall, precision, and confusion matrix.
